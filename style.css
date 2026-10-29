@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff8f5;
+    color: #333;
+}
+
+header,
+nav,
+main,
+article,
+footer {
+    max-width: 1000px;
+    margin: 0 auto 25px;
+}
+
+h1,
+h2,
+h3 {
+    color: #8b3a62;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: #8b3a62;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+section,
+article {
+    margin-bottom: 30px;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    font-size: 0.9rem;
+}
